@@ -3017,13 +3017,13 @@ div.wpcf7-response-output{
 .is-ie-10 .c-loading{
     display:none
 }
-.c-loading .c-loading_top, .c-loading .c-loading_bottom{
+/*.c-loading .c-loading_top, .c-loading .c-loading_bottom{
     position:absolute;
     left:0;
     right:0;
     height:50%;
     content:"";
-    /*background:#cff2f7;*/
+    /*background:#cff2f7;*
     background:#61ffc6 ;
     -webkit-transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
@@ -3033,8 +3033,8 @@ div.wpcf7-response-output{
     -o-transition-delay:0s;
     -webkit-transition-delay:0s;
     transition-delay:0s
-}
-.dom-is-loaded .c-loading.is-loading .c-loading_top, .dom-is-loaded .c-loading.is-loading .c-loading_bottom{
+}*/
+/*.dom-is-loaded .c-loading.is-loading .c-loading_top, .dom-is-loaded .c-loading.is-loading .c-loading_bottom{
     transform:translate(0, 0%);
     -ms-transform:translate(0, 0%);
     -webkit-transform:translate(0, 0%);
@@ -3043,7 +3043,7 @@ div.wpcf7-response-output{
     -o-transition-delay:0.6s;
     -webkit-transition-delay:0.6s;
     transition-delay:0.6s
-}
+}*/
 .c-loading .c-loading_top{
     top:0
 }
