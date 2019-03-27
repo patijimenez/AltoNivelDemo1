@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+
+    <!--CREDENCIALES-->
+    <!--
+    GESTORIA
+    usuario:
+    contrasena:
+
+    LEGAL
+    usuario:
+    contrasena:
+    -->
+    <parameter name="url" value = "http://192.168.23.196/CC2/"/>
+    <parameter name="driverPath"  value="C:\Users\QASSURANCE8\Chromedriver\chromedriver.exe"/>
+
+    <parameter name="usuario" value = "jhrodriguez" />
+    <parameter name="extension" value = "12"/>
+    <parameter name="contrasena" value ="jhrodriguez"/>
+
+    <test name = "vial.Test1">
+        <classes>
+            <class name="vial.Login"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

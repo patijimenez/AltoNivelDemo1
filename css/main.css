@@ -85,28 +85,26 @@ div.wpcf7 input[type="file"]{
 div.wpcf7 input[type="file"]:disabled{
     cursor:default
 }
-/*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
+
  html{
     font-family:sans-serif;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
-body{
-    margin:0
-}
-article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{
+
+/*article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{
     display:block
-}
-audio,canvas,progress,video{
+}*/
+/*audio,canvas,progress,video{
     display:inline-block
 }
 audio:not([controls]){
     display:none;
     height:0
-}
-progress{
+}*/
+/*progress{
     vertical-align:baseline
-}
+}**/
 template,[hidden]{
     display:none
 }
@@ -392,7 +390,7 @@ body,html{
     -webkit-font-smoothing:antialiased;
     background:#fff
 }
-body ::-webkit-scrollbar, html ::-webkit-scrollbar{
+/*body ::-webkit-scrollbar, html ::-webkit-scrollbar{
     width:6px
 }
 body ::-webkit-scrollbar-track:vertical, html ::-webkit-scrollbar-track:vertical{
@@ -403,9 +401,9 @@ body ::-webkit-scrollbar-thumb:vertical, html ::-webkit-scrollbar-thumb:vertical
     border-radius:0px;
     /*background:#f05b89*/
     /*background: #195176;*/
-    /*background: #61ffc6;*/
+    /*background: #61ffc6;*
     background: #ffd101a8;
-}
+}*/
 ::selection{
     background:#00a9c3;
     color:#fff;
@@ -3062,7 +3060,7 @@ div.wpcf7-response-output{
     -webkit-transform:translate(0,100%);
     -moz-transform:translate(0,100%)
 }
-.c-spinner{
+/*.c-spinner{
     position:fixed;
     top:50%;
     left:50%;
@@ -3071,13 +3069,13 @@ div.wpcf7-response-output{
     transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     -ms-transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     -moz-transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.9s cubic-bezier(0.4, 0, 0.2, 1)
-}
-.dom-is-loaded .c-spinner{
+}*/
+/*.dom-is-loaded .c-spinner{
     opacity:0
 }
 .dom-is-loaded .c-spinner.is-loading{
     opacity:1
-}
+}*/
 @media (min-width: 1000px){
     .c-spinner{
         width:2.25rem;
@@ -3102,13 +3100,13 @@ div.wpcf7-response-output{
     bottom:0;
     animation:spinner-anim 0.7s linear infinite
 }
-.dom-is-loaded .c-spinner_wrap{
+/*.dom-is-loaded .c-spinner_wrap{
     animation-play-state:paused
-}
-.dom-is-loaded .is-loading .c-spinner_wrap{
+}*/
+/*.dom-is-loaded .is-loading .c-spinner_wrap{
     animation-play-state:running
-}
-.c-spinner_dot{
+}*/
+./*c-spinner_dot{
     display:inline-block;
     border-radius:50%;
     position:absolute;
@@ -3116,7 +3114,7 @@ div.wpcf7-response-output{
     transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     -ms-transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     -moz-transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1)
-}
+}*/
 @media (min-width: 1000px){
     .c-spinner_dot{
         width:0.625rem;
@@ -3238,7 +3236,7 @@ div.wpcf7-response-output{
 }
 @media (min-width: 1000px){
     .c-main{
-        padding-bottom:7.1875rem
+        /*padding-bottom:7.1875rem*/
     }
 }
 @media (max-width: 999px){
@@ -3725,11 +3723,11 @@ div.wpcf7-response-output{
     height:1px;
     background:url(/wp-content/themes/plastie/images/dotted.svg) bottom left repeat-x
 }
-.c-img-anim{
+/*.c-img-anim{
     overflow:hidden;
     display:inline-block;
     position:relative
-}
+}*/
 .c-img-anim.-red{
     background:#e9c7cd
 }
@@ -3866,7 +3864,7 @@ div.wpcf7-response-output{
     background:linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#ffffff',GradientType=0)
 }
-.c-open-admin{
+/*.c-open-admin{
     position:fixed;
     z-index:10001;
     top:0;
@@ -3878,8 +3876,8 @@ div.wpcf7-response-output{
     transition:all 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     -ms-transition:all 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     -moz-transition:all 0.9s cubic-bezier(0.4, 0, 0.2, 1)
-}
-.has-admin-open .c-open-admin{
+}*/
+/*.has-admin-open .c-open-admin{
     top:32px
 }
 .is-changing-page .c-open-admin{
@@ -3891,8 +3889,8 @@ div.wpcf7-response-output{
 }
 .logged-in .c-open-admin{
     display:block
-}
-.c-open-admin::before{
+}*/
+/*.c-open-admin::before{
     position:absolute;
     top:0;
     bottom:0;
@@ -3909,11 +3907,11 @@ div.wpcf7-response-output{
 }
 .has-admin-open .c-open-admin::before{
     opacity:0.8
-}
+}*/
 .c-open-admin:hover::before{
     opacity:0.8
 }
-.c-open-admin_button{
+/*.c-open-admin_button{
     text-transform:uppercase;
     letter-spacing:0.3;
     line-height:1;
@@ -3930,7 +3928,7 @@ div.wpcf7-response-output{
     -ms-transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     -moz-transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     overflow:hidden
-}
+}*/
 .has-admin-open .c-open-admin_button{
     transform:translate(0, 0%);
     -ms-transform:translate(0, 0%);
@@ -3991,7 +3989,7 @@ div.wpcf7-response-output{
     -webkit-transform-origin:left center;
     transform-origin:left center
 }
-#wpadminbar{
+/*#wpadminbar{
     transform:translate(0, -100%);
     -ms-transform:translate(0, -100%);
     -webkit-transform:translate(0, -100%);
@@ -4000,8 +3998,8 @@ div.wpcf7-response-output{
     transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     -ms-transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
     -moz-transition:transform 0.9s cubic-bezier(0.4, 0, 0.2, 1)
-}
-.has-admin-open #wpadminbar{
+}*/
+/*.has-admin-open #wpadminbar{
     transform:translate(0, 0%);
     -ms-transform:translate(0, 0%);
     -webkit-transform:translate(0, 0%);
@@ -4012,7 +4010,7 @@ div.wpcf7-response-output{
     -ms-transform:translate(0, -100%);
     -webkit-transform:translate(0, -100%);
     -moz-transform:translate(0, -100%)
-}
+}*/
 @media (min-width: 1000px){
     .c-home-text{
         max-width:445px
@@ -4049,6 +4047,7 @@ div.wpcf7-response-output{
 .c-home-header_img{
     position:absolute;
     top:0;
+    height: inherit;
     background-image: url("../Images/2909.jpg");
     background-size: cover;
     overflow:hidden;
